@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+	int A, B, sum;
+	
+	printf("\t Enter value of A : ");
+	scanf("%d",&A);
+	printf("\t Enter value of B : ");
+	scanf("%d",&B);
+	
+	sum = A + B;
+	printf("\n\t %d + %d = %d & size is %d bytes",A,B,sum,sizeof(sum));
+
+}
